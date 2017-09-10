@@ -29,8 +29,7 @@ console.log('april'); // {name:'April',color:'white}
 console.log(Object.getPrototypeOf(april)); // Dog {age:16}
 
 /**The same process is followed for any object created using the 
- * Dog function
- */
+ * Dog function*/
 
 var rover = new Dog('Rover', 'brown');
 console.log(rover); // {name:'Rover',color:'brown'}
